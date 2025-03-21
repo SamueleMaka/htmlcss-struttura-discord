@@ -1,0 +1,130 @@
+html {
+    box-sizing: border-box;
+  }
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: lightblue;
+    min-height: 75px;
+    justify-content: center;
+    align-items: center;
+}
+header > * {
+    background-color: goldenrod;
+}
+.dashed-border-black{
+    border: 2px dashed black;
+}
+.dashed-border-white{
+    border: 2px dashed white;
+}
+
+.logo , .login{
+    width: 20%;
+    min-height: 40px;
+}
+.links{
+    flex-grow: 1;
+    text-align: center;
+    min-height: 40px;
+    max-width: 40%;
+}
+
+.banner{ 
+    /* DEBUG  */
+    background-color: darkblue;
+    height: 500px;
+    padding: 50px 0;
+}
+.banner-content{
+    /* DEBUG  */
+    background-color: fuchsia;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+}
+.page{
+    /* DEBUG  */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.big-content{
+    /* DEBUG  */
+    background-color: deepskyblue;
+    min-height: 500px;
+    width: 40%;
+}
+.small-content{
+    /* DEBUG  */
+    background-color: pink;
+    min-height: 500px;
+    width: 30%;
+}
+.second{
+    background-color: lightgrey;
+}
+.big-block{
+    /* DEBUG  */
+    height: 1100px;
+    background-color: lightgrey;
+    padding: 100px 0px;
+}
+.content-big-block{
+    /* DEBUG  */
+    background-color: green;
+    height: 900px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+.footer{
+    /* DEBUG  */
+    background-color: darkslategray;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials{
+    /* DEBUG  */
+    width: 20%;
+    height: 500px;
+    background-color: pink;
+}
+.contacts{
+    /* DEBUG  */
+    width: 50%;
+    height: 500px;
+    background-color:lightskyblue;
+    display: flex;
+}
+.contacts > * {
+    width: 25%;
+}
+.bottom{
+    margin-top: 2px;
+    background-color: darkslategray;
+    height: 150px;
+    padding-top: 50px;
+}
+.bottom-content{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.button{
+    background-color: pink;
+    height: 50px;
+    width: 100px;
+}
